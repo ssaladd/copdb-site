@@ -1,0 +1,72 @@
+@font-face 
+{
+    font-family: robotoR; src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face 
+{
+    font-family: robotoB; src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+/*--------------------------------------------------------------*/
+body 
+{
+    margin: 0;
+}
+/*--------------------------------------------------------------*/
+html { overflow-y: scroll; }
+* { box-sizing: border-box;}
+/*--------------------------------------------------------------*/
+.header
+{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+.header-inner
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+}
+.header-inner-item
+{
+    margin-right: 40px;
+    font-size: 24px;
+    font-family: robotoB;
+    color: rgb(8, 11, 17);
+}
+/*--------------------------------------------------------------*/
+.main
+{
+    height: 600px;
+    width: 65%;
+    background-color: rgb(8, 11, 17);
+}
+.main-inner
+{
+    padding-left: 100px;
+    padding-top: 60px;
+    height: 100%;
+    width: 100%;
+}
+.main-top-title
+{
+    font-size: 38px;
+    font-family: robotoB;
+    color: rgba(255, 255, 255, 0.678);
+}
+.main-middle-title
+{
+    font-size: 52px;
+    font-family: robotoB;
+    color:white;
+}
+/*--------------------------------------------------------------*/
+.side
+{
+    height: 600px;
+    width: 35%;
+    background-color: white;
+}
